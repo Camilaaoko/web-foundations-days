@@ -1,0 +1,39 @@
+:root {
+  --bg-color: #ffffff;
+  --text-color: #222222;
+  --btn-bg: #e0e0e0;
+  --btn-text: #000000;
+}
+
+body.dark {
+  --bg-color: #1e1e1e;
+  --text-color: #f0f0f0;
+  --btn-bg: #333333;
+  --btn-text: #ffffff;
+}
+
+body {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  font-family: sans-serif;
+  padding: 20px;
+}
+
+button {
+  background-color: var(--btn-bg);
+  color: var(--btn-text);
+  border: 1px solid #ccc;
+  padding: 8px 16px;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+/* Character counter limit styles */
+.warning {
+  color: orange;
+}
+
+.over {
+  color: red;
+  font-weight: bold;
+}
